@@ -199,16 +199,17 @@ hr.soften2 {
 	height: 100%;
 }
 .splash img {
-	height: 100%;
 	width: 100%;
+	overflow: hidden;
 }
 .show-case-item {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
     width: 75%;
-    background: rgb(54, 50, 50); /* Fall-back for browsers that don't
-                                    support rgba */
+    background: rgb(54, 50, 50); /* Fall-back for browsers that don't support rgba */
     background: rgba(54, 50, 50, .5);
 
 }
@@ -223,6 +224,11 @@ hr.soften2 {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+ul.nav {
+    background: rgb(54, 50, 50); /* Fall-back for browsers that don't support rgba */
+    background: rgba(54, 50, 50, .5);
 }
 #nav-header ul li {
 	display: inline-block;
